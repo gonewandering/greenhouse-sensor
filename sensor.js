@@ -1,4 +1,4 @@
-var sensor = require("node-dht-sensor");
+var sensor = require("node-dht-sensor")
 
 function read(model, pin) {
   return new Promise ((succ, cat) => {
